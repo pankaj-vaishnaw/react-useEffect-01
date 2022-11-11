@@ -21,7 +21,7 @@ const Search = () => {
 
   return (
    <>
-    <h2 className="top-heading">Mr.SpicyFoooddy</h2>
+    <h2 className="top-heading">Food Adda</h2>
     <div className = "main-cont">
       <div className="header">
         <input
@@ -29,7 +29,7 @@ const Search = () => {
           onChange={(e) => {
             setQuery(e.target.value);
           }}
-          placeholder="Find the best recipe.."
+          placeholder="Find best food items.."
         ></input>
         <button
           onClick={() => {
